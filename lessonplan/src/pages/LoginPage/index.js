@@ -18,7 +18,7 @@ function LoginPage() {
 
                         <div class="form-group">
                             <label for="exampleInputEmail1"></label>
-                            <input type="email" class="form-control" id="email-input" placeholder="&#xf007;  Email"></input>
+                            <input type="email" class="form-control" id="email-input" placeholder="&#xf007;  UserName"></input>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1"></label>
