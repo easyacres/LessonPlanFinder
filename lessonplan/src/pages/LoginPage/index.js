@@ -1,8 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NewAccountPage from '../NewAccountPage/NewAccountPage';
 import "./LoginPage.css";
 
 function LoginPage() {
     return (
+    <Router>
+        <section id="login">
         <div class="container" id="login-container">
 
             <div class="row">
@@ -32,12 +36,14 @@ function LoginPage() {
                     <br />
                     <br />
                     <br />
-                    <p>Create your account <a href="/signup.html"> <i
-                        class="fas fa-arrow-right"></i></a></p>
+                    <p>Create your account  <i
+                        class="fas fa-arrow-right"></i> <Route exact path="/NewAccountPage" component={NewAccountPage}></Route>
+                        </p>
                 </div>
             </div>
         </div>
-
+        </section>
+        </Router>
 
     );
 }
