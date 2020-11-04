@@ -29,7 +29,7 @@ body {
     bottom: 0px;
     left: 0px;
 }
-h2{
+#loginHeader{
     font-weight: bolder;
     color: rgb(224, 223, 156);
 }
@@ -46,9 +46,7 @@ form.login {
     font-weight: bold;
     font-size: 15px;
 }
-p {
-    text-align: center;
-}
+
 #login-container {
     margin-top: 10%;
     margin-bottom: 10%;
