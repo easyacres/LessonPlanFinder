@@ -1,8 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NewAccountPage from '../NewAccountPage/NewAccountPage';
 import "./LoginPage.css";
 
 function LoginPage() {
     return (
+        <section id="login">
+        <div id="layer">
         <div class="container" id="login-container">
 
             <div class="row">
@@ -24,20 +28,23 @@ function LoginPage() {
                             <label for="exampleInputPassword1"></label>
                             <input type="password" class="form-control" id="password-input" placeholder="&#xf023;  Password"></input>
                         </div>
-                        <button type="submit" class="btn" id="login-btn">LOGIN</button>
+                        <p>
+                        <button type="submit" class="btn" id="signup-btn">Sign Up</button> 
+                        {/* Link Page */}
+                        <button type="submit" class="btn" id="login-btn">Login</button>
+                        </p>
                     </form>
                     <form class="forgotpass">
-                        <p><button type="submit" class="btn">Forgot Password?</button></p>
+                        <p><button type="submit" class="forgotPass-btn">Forgot Password?</button></p>
                     </form>
                     <br />
                     <br />
                     <br />
-                    <p>Create your account <a href="/signup.html"> <i
-                        class="fas fa-arrow-right"></i></a></p>
                 </div>
             </div>
         </div>
-
+        </div>
+        </section>
 
     );
 }

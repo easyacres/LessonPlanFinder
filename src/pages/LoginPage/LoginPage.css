@@ -1,16 +1,48 @@
 body {
     font-family: FontAwesome;
 }
-
+#login {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#login::before {
+    content: "";
+    background: url(https://www.icgroupinc.com/wp-content/uploads/2016/09/background-work.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 82%; 
+}
+#layer {
+    /* background-color: rgba(252, 255, 50, 0.1); */
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+h2{
+    font-weight: bolder;
+    color: rgb(224, 223, 156);
+}
 form.login {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .form-group {
     margin: 0px;
 }
 .form-control{
     border-radius: 100px;
-    padding: 10px;
+    padding: 15px;
+    border: none;
     font-weight: bold;
     font-size: 15px;
 }
@@ -18,18 +50,36 @@ p {
     text-align: center;
 }
 #login-container {
-    padding: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     padding-bottom: 10px;
-    width: 60%;
+    width: 100%;
+    max-width: 400px;
 }
 
 #login-btn {
-    width: 25%;
-    background-color: rgb(82, 78, 77);
+    width: 50%;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 100px;
+    color: rgb(92, 92, 92);
+    margin-top: 30px;
+}
+#signup-btn {
+    width: 50%;
+    background-color: transparent;
     font-size: 15px;
     padding: 12px;
     border-radius: 100px;
     color: white;
+    font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 30px;
-  }
+}
+.forgotPass-btn {
+    margin-top: 40px;
+    background-color: transparent;
+    border: none;
+    color: rgb(180, 180, 180);
+}

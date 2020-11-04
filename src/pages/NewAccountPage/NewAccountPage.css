@@ -1,0 +1,19 @@
+  #signup-container {
+    width: 60%;
+    padding-top: 30px;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 50px;
+  }
+  #signup-btn {
+    width: 30%;
+    background-color: rgb(48, 48, 48);
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 45px;
+    border-radius: 100px;
+    color: white;
+  }
+  .mt-10 {
+    margin-top: 10px;
+  }
