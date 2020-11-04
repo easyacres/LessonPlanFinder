@@ -10,25 +10,25 @@ function NewAccountPage() {
             <h2>Create An Account</h2>
             <form class="signup">
               <div class="form-group mt-10">
-                <label for="exampleInputFirstName1">First Name</label>
-                <input type="text" class="form-control" id="firstName-input" placeholder="First Name"></input>
+                <label class="label-control" for="exampleInputFirstName1">First Name: </label>
+                <input type="text" class="form-control-signup" id="firstName-input" placeholder="Enter"></input>
               </div>
               <div class="form-group mt-10">
-                <label for="exampleInputLastName1">Last name</label>
-                <input type="text" class="form-control" id="lastName-input" placeholder="Last Name"></input>
+                <label class="label-control" for="exampleInputLastName1">Last name: </label>
+                <input type="text" class="form-control-signup" id="lastName-input" placeholder="Enter"></input>
               </div>
               <div class="form-group mt-10">
-                <label for="exampleInputTitle1">Email</label>
-                <input type="email" class="form-control" id="email-input" placeholder="Email"></input>
+                <label class="label-control" for="exampleInputTitle1">Email: </label>
+                <input type="email" class="form-control-signup" id="email-input" placeholder="Email"></input>
               </div>
               <div class="form-group mt-10">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="password-input" placeholder="Password"></input>
+                <label class="label-control" for="exampleInputPassword1">Password:</label>
+                <input type="password" class="form-control-signup" id="password-input" placeholder="Password"></input>
               </div>
-              <div id="alert" class="alert alert-danger" role="alert">
+              {/* <div id="alert" class="alert alert-danger" role="alert">
                 <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
                 <span class="sr-only">Error:</span> <span class="msg"></span>
-              </div>
+              </div> */}
               <button id="signup-btn" type="submit" class="btn btn-default">Sign Up</button>
             </form>
             <br />
