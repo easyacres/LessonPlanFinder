@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import NewAccountPage from '../NewAccountPage/NewAccountPage';
+
 import "./LoginPage.css";
 
 function LoginPage() {
@@ -17,7 +17,7 @@ function LoginPage() {
                 </div>
 
                 <div class="column" class="col-md-12">
-                    <h2>Member Login</h2>
+                    <h2 id="loginHeader">Member Login</h2>
                     <form class="login">
 
                         <div class="form-group">
