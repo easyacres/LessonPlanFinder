@@ -25,7 +25,7 @@ function Footer() {
             </div>
 
             <footer className="subFooter">
-            <p>Made with <i class="far fa-heart"></i> by LessonPlanner</p>
+            <h6>Made with <i class="far fa-heart"></i> by LessonPlanner</h6>
             </footer>
         </footer>
 

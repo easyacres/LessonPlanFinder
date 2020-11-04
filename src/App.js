@@ -12,11 +12,8 @@ import NewAccountPage from './pages/NewAccountPage/NewAccountPage';
 function App() {
   return (
     <div className="App">
-   <Wrapper>
-     <Nav />
-     <NewAccountPage />
+     <LoginPage />
      <Footer />
-   </Wrapper>
     </div>
   );
 }
