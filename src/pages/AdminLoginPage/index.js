@@ -1,5 +1,5 @@
 import React from "react"
-import "./index.css"
+import "./AdminLoginPage.css"
 
 function AdminLoginPage () {
     return (
@@ -39,3 +39,5 @@ function AdminLoginPage () {
       </section>
     )
 }
+
+export default AdminLoginPage

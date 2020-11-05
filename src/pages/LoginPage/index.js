@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Navigate, NavLink, Switch } from "react-router-dom"
 import { Button } from "react-bootstrap"
 import NewAccountPage from "../NewAccountPage/index.js"
+import AdminLoginPage from "../AdminLoginPage/index.js"
 import "./LoginPage.css";
 
 function LoginPage() {
@@ -51,17 +52,7 @@ function LoginPage() {
   
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
-              <Switch>
-            <Route path="/" exact>
-              Login Page
-            </Route>
-            <Route path="/newaccount">
-              <NewAccountPage />
-            </Route>
-            <Route path="/adminlogin">
-              
-            </Route>
-            </Switch>
+             
            
                         <Button type="submit" class="btn" id="login-btn">Login</Button>
                         

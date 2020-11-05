@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import NewAccountPage from './pages/NewAccountPage';
 import Footer from './components/Footer';
 import "./App.css";
+import Routes from "./router"
 
 
 
@@ -13,7 +14,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-     <LoginPage />
+     <Routes />
      <Footer />
     </div>
   );
