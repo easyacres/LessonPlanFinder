@@ -43,7 +43,7 @@ function LoginPage() {
         </NavLink>
     </Button>
     <Button variant="outline-info">
-        <NavLink to="./newaccountpage">
+        <NavLink to="./newaccount">
         Sign Up
         </NavLink>
         </Button>
