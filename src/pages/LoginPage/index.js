@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
+import { Navigate, NavLink, Switch } from "react-router-dom"
+import { Button } from "react-bootstrap"
+import NewAccountPage from "../NewAccountPage/index.js"
+import AdminLoginPage from "../AdminLoginPage/index.js"
 import "./LoginPage.css";
 
 function LoginPage() {
@@ -28,11 +31,33 @@ function LoginPage() {
                             <label for="exampleInputPassword1"></label>
                             <input type="password" class="form-control" id="password-input" placeholder="&#xf023;  Password"></input>
                         </div>
-                        <p>
-                        <button type="submit" class="btn" id="signup-btn">Sign Up</button> 
-                        {/* Link Page */}
-                        <button type="submit" class="btn" id="login-btn">Login</button>
-                        </p>
+                        
+                        {/* <button type="submit" class="btn" id="signup-btn">Sign Up</button>  */}
+                        
+                        <Router>
+                        
+                        
+        <div>
+    <Button variant="outline-info" id="adminlogin">
+        <NavLink to="./adminlogin">
+            Admin Login
+        </NavLink>
+    </Button>
+    <Button variant="outline-info">
+        <NavLink to="./newaccount">
+        Sign Up
+        </NavLink>
+        </Button>
+
+  
+          {/* A <Switch> looks through its children <Route>s and
+              renders the first one that matches the current URL. */}
+             
+           
+                        <Button type="submit" class="btn" id="login-btn">Login</Button>
+                        
+                        </div>
+                        </Router>
                     </form>
                     <form class="forgotpass">
                         <p><button type="submit" class="forgotPass-btn">Forgot Password?</button></p>
