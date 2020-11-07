@@ -1,20 +1,24 @@
 import React from 'react';
 import {Button, NavLink, Navbar, Nav } from "react-bootstrap"
 import "./Nav.css";
+import {Form, FormControl } from "react-bootstrap"
 
 function Navigation() {
     return (
-        <Navbar className="Navigation">
-            <Navbar.Brand></Navbar.Brand>
-            <Nav className="justify-content-end">
-                <Button variant="outline-light" id="logout">
-                    <NavLink to="./" id="logout-link">
-                        Logout
-                    </NavLink>
-                </Button>
-            </Nav>
+        <>
+        <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="mr-auto">
+            <Nav.Link href="loginpage">Login</Nav.Link>
+            <Nav.Link href="adminlogin">Admin Login</Nav.Link>
+            <Nav.Link href="newaccount">Sign Up</Nav.Link>
+          </Nav>
+          <Form inline>
+            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <Button variant="outline-info">Search</Button>
+          </Form>
         </Navbar>
-
+      </>
     );
 }
-export default Navigation;
+export default Navigation

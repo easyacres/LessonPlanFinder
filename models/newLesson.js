@@ -27,9 +27,6 @@ const newLessonSchema = new Schema({
       default: Date.now
   },
 
-  // Not all ingredients, just the recommended ingredients from scraped web pages
-  // from which seed data was sourced
-  ingredients: [String],
 });
 
 const newLesson = mongoose.model("newLesson", newLessonSchema);

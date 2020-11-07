@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const newUserSchema = new Schema({
+const newAccountSchema = new Schema({
   // url string for thumbnail image
   thumbnail: {
     type: String,
@@ -23,11 +23,9 @@ const newUserSchema = new Schema({
     default: false
   },
 
-  // Not all ingredients, just the recommended ingredients from scraped web pages
-  // from which seed data was sourced
-  ingredients: [String]
+ 
 });
 
-const newUser = mongoose.model("newUser", newUserSchema);
+const newAccount = mongoose.model("newAccount", newAccountSchema);
 
-module.exports = newUser;
+module.exports = newAccount;
