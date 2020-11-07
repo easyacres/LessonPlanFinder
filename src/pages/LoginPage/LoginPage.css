@@ -3,12 +3,15 @@
     top: 10px;
     right: 10px;
 }
+.loginNav {
+    background-color: transparent;
+}
 body {
     font-family: FontAwesome;
 }
 #login {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -95,6 +98,7 @@ form.login {
 }
 .forgotPass-btn {
     margin-top: 40px;
+    margin-bottom: 100px;
     background-color: transparent;
     border: none;
     color: rgb(180, 180, 180);

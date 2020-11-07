@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom"
 import { Switch, Route } from "react-router-dom"
 import NewAccountPage from "./pages/NewAccountPage/index"
 import AdminLoginPage from "./pages/AdminLoginPage/index"
-import LoginPage from "./pages/LoginPage"
+import LoginPage from "./pages/LoginPage/index"
 
 function Routes () {
     return (
