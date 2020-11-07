@@ -3,7 +3,7 @@ import React from "react"
 
 function Navigate() {
     return (
-        <Navbar variant="dark">
+        <Navbar className="loginNav">
         <Navbar.Brand></Navbar.Brand>
         <Nav className="justify-content-end">
         <Button variant="outline-info">

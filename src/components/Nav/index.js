@@ -7,8 +7,8 @@ function Navigation() {
         <Navbar className="Navigation">
             <Navbar.Brand></Navbar.Brand>
             <Nav className="justify-content-end">
-                <Button variant="outline-light" id="adminlogin">
-                    <NavLink to="./" id="navlink">
+                <Button variant="outline-light" id="logout">
+                    <NavLink to="./" id="logout-link">
                         Logout
                     </NavLink>
                 </Button>
