@@ -1,8 +1,11 @@
 import React from "react"
 import "./AdminLoginPage.css"
+import Navigation from "../../components/Nav/index"
 
 function AdminLoginPage () {
     return (
+      <div>
+      <Navigation />
         <section id="newAccount">
         <div id="signup-container" class="container">
           <div class="row">
@@ -37,6 +40,7 @@ function AdminLoginPage () {
           </div>
         </div>
       </section>
+    </div>
     )
 }
 

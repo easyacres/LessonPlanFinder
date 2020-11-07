@@ -1,16 +1,23 @@
 import React from 'react';
-
 import "./Nav.css";
+import { Navbar, Nav, Form, Button, FormControl } from "react-bootstrap"
 
-function Nav() {
+function Navigation() {
     return (
-        <nav className="navbar navbar-light">
-            <a class="navbar-brand" href="#"z>
-                {/* <img src="#" width="30" height="30" class="d-inline-block align-top" alt=""></img> */}
-                    Bootstrap
-            </a>
-        </nav>
-      
+        <>
+        <Navbar bg="dark" variant="dark">
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="mr-auto">
+            <Nav.Link href="loginpage">Login</Nav.Link>
+            <Nav.Link href="adminlogin">Admin Login</Nav.Link>
+            <Nav.Link href="newaccount">Sign Up</Nav.Link>
+          </Nav>
+          <Form inline>
+            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+            <Button variant="outline-info">Search</Button>
+          </Form>
+        </Navbar>
+      </>
     );
 }
-export default Nav;
+export default Navigation
