@@ -1,8 +1,11 @@
 import React from 'react';
 import "./NewAccountPage.css";
+import Navigation from "../../components/Nav/index"
 
 function NewAccountPage() {
   return (
+    <div>
+    <Navigation />
     <section id="newAccount">
       <div id="signup-container" class="container">
         <div class="row">
@@ -37,7 +40,7 @@ function NewAccountPage() {
         </div>
       </div>
     </section>
-
+  </div>
 
   );
 }
