@@ -1,16 +1,20 @@
 import React from 'react';
-
+import {Button, NavLink, Navbar, Nav } from "react-bootstrap"
 import "./Nav.css";
 
-function Nav() {
+function Navigation() {
     return (
-        <nav className="navbar navbar-light">
-            <a class="navbar-brand" href="#"z>
-                {/* <img src="#" width="30" height="30" class="d-inline-block align-top" alt=""></img> */}
-                    Bootstrap
-            </a>
-        </nav>
-      
+        <Navbar className="Navigation">
+            <Navbar.Brand></Navbar.Brand>
+            <Nav className="justify-content-end">
+                <Button variant="outline-light" id="adminlogin">
+                    <NavLink to="./" id="navlink">
+                        Logout
+                    </NavLink>
+                </Button>
+            </Nav>
+        </Navbar>
+
     );
 }
-export default Nav;
+export default Navigation;
