@@ -50,6 +50,7 @@ form.login {
     border: none;
     font-weight: bold;
     font-size: 15px;
+    color: white;
 }
 
 #login-container {
@@ -67,18 +68,30 @@ form.login {
     font-size: 15px;
     padding: 12px;
     border-radius: 100px;
+    border: none;
     color: rgb(92, 92, 92);
     margin-top: 30px;
 }
+#navlink {
+    color: white;
+}
+#navlink:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
 #signup-btn {
     width: 50%;
-    background-color: transparent;
     font-size: 15px;
     padding: 12px;
     border-radius: 100px;
-    color: white;
-    font-weight: bold;
+    border: none;
     margin-top: 30px;
+}
+#signup-btn:hover, #adminlogin:hover {
+    background-color: transparent;
+}
+#adminlogin {
+    border: none;
 }
 .forgotPass-btn {
     margin-top: 40px;
