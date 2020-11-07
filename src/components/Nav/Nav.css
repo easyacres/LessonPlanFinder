@@ -1,12 +1,9 @@
-#logout {
+.mr-auto {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-weight: bold;
 }
 
-.navbar-collapse {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: flex-start;
+.navbar {
+    background-color: rgb(255, 230, 0);
 }

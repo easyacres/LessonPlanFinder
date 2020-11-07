@@ -1,0 +1,11 @@
+#teacher {
+    height: 100vh;
+}
+#teacher-container {
+    margin-top: 5%;
+}
+#profileCard {
+    border-radius: 7%;
+    width: 18rem;
+    border-color: rgb(243, 243, 243);
+}
