@@ -1,5 +1,6 @@
 module.exports = {
-    newUser: require("./newUser"),
-    savedUser: require("./savedUser")
+    newAccount: require("./NewAccount"),
+    savedUser: require("./SavedUser"),
+    newLesson: require("./NewLesson")
 };
 
