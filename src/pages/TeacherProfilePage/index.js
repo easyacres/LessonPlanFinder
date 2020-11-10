@@ -1,4 +1,5 @@
 import React from "react"
+import PDF from "../../components/Markdown"
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Navigate, NavLink, Switch } from "react-router-dom"
 import { Button, Card, Tab, Sonnet } from "react-bootstrap"
@@ -28,7 +29,17 @@ function TeacherProfilePage() {
                         </div>
 
                         <div class="column" class="col-md-8">
-                            
+                            <h2 id="lessonTitle"></h2>
+                            < br />
+                            <Card id="lessonsCard" style={shadow}>
+                                <Card.Header as="h5">Archive</Card.Header>
+                                <Card.Body>
+                                    <Card.Title></Card.Title>
+                                    <Card.Text>
+                                        <PDF />
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
 
                         </div>
                     </div>

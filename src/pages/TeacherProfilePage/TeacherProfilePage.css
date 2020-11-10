@@ -1,11 +1,21 @@
 #teacher {
     height: 100vh;
+    position: relative;
+    top: 0px;
 }
 #teacher-container {
     margin-top: 5%;
 }
 #profileCard {
     border-radius: 7%;
-    width: 18rem;
+    width: 100%;
     border-color: rgb(243, 243, 243);
+}
+#lessonsCard {
+    border-radius: 4%;
+    width: 100%;
+    border-color: rgb(243, 243, 243);
+}
+#lessonTitle {
+    color: grey;
 }
