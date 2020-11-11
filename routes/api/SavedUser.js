@@ -1,10 +1,10 @@
 const router = require("express").Router();
-const savedUserCtrl = require("../../controllers/savedUserController");
+const savedUserController = require("../../controllers/savedUserController");
 
 // Matches with "/api/SavedUser"
 router.route("/:id")
-    .get(savedUserCtrl.findById)
-    .put(savedUserCtrl.update)
-    .delete(savedUserCtrl.remove);
+    .get(savedUserController.findById)
+    .put(savedUserController.update)
+    .delete(savedUserController.remove);
 
 module.exports = router;

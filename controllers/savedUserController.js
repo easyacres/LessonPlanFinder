@@ -1,7 +1,6 @@
-const { db } = require("../models/SavedUser");
-const savedUser = require("../models/SavedUser");
+const db = require("../models/SavedUser");
 
-// Defining methods for savedUserCtrl
+// Defining methods for savedUserController
 module.exports = {
     findById: function(req, res) {
         db.savedUser.findById(req.params.id)
