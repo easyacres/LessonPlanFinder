@@ -4,6 +4,9 @@ import { Switch, Route } from "react-router-dom"
 import NewAccountPage from "./pages/NewAccountPage/index"
 import AdminLoginPage from "./pages/AdminLoginPage/index"
 import LoginPage from "./pages/LoginPage/index"
+import AdminProfilePage from "./pages/AdminProfilePage"
+import Navigation from "./components/Nav"
+import TeacherProfilePage from "./pages/TeacherProfilePage"
 
 function Routes () {
     return (
@@ -17,6 +20,14 @@ function Routes () {
         </Route>
         <Route path="/adminlogin">
           <AdminLoginPage />
+        </Route>
+        <Route path="/adminprofile">
+          <Navigation />
+          <AdminProfilePage />
+        </Route>
+        <Route path="/teacherprofile">
+          <Navigation />
+          <TeacherProfilePage />
         </Route>
         </Switch>
         </BrowserRouter>

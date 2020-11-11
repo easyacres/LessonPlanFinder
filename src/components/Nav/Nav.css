@@ -1,11 +1,9 @@
-.navbar1 {
-    padding: 20px 25px;
-    margin: 0 auto;
-    background-color: rgb(235, 231, 0); 
+.mr-auto {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
-.navbar-collapse {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: flex-start;
+.navbar {
+    background-color: rgb(255, 230, 0);
 }
