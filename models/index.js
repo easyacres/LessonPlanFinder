@@ -1,6 +1,8 @@
 module.exports = {
+    adminAccount: require("./AdminAccount"),
     newAccount: require("./NewAccount"),
-    savedUser: require("./SavedUser"),
-    newLesson: require("./NewLesson")
+    newLesson: require("./NewLesson"),
+    savedAccount: require("./SavedAccount"),
+    savedLesson: require("./SavedLesson")
 };
 

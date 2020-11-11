@@ -1,13 +1,13 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const newAccountSchema = new Schema({
+const adminAccountSchema = new Schema({
   // url string for thumbnail image
   thumbnail: {
     type: String,
     default: ""
   },
-  // teacher name
+  // admin name
   name: {
     type: String,
     required: true
@@ -24,21 +24,15 @@ const newAccountSchema = new Schema({
     required: "Password is Required",
     validate: [({ length }) => length => 8, "Password shall be longer!"]
   },
-  // course taught
-  course: {
-    type: String,
-    required: true
-  },
   // email
   email: {
     type: String,
     unique: true,
     match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
   },
-  
- 
+   
 });
 
-const newAccount = mongoose.model("newAccount", newAccountSchema);
+const adminAccount = mongoose.model("adminAccount", adminAccountSchema);
 
-module.exports = newAccount;
+module.exports = adminAccount;
