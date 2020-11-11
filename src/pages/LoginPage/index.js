@@ -34,7 +34,7 @@ function LoginPage() {
                             <Form class="login">
                                 <Form.Group controlId="formBasicEmail">
                                     <Form.Label></Form.Label>
-                                    <Form.Control type="email" class="form-control" id="email-input" placeholder="&#xf007;  UserName" />
+                                    <Form.Control type="email" class="form-control" id="username-input" placeholder="&#xf007;  UserName" />
                                 </Form.Group>
 
                                 <Form.Group controlId="formBasicPassword">

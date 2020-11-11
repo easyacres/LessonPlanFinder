@@ -1,8 +1,9 @@
 import React from "react"
-import PDF from "../../components/Markdown"
+import PDFViewer from '../../components/PDFViewer/index';
+import PDFJSBackend from '../../backends/pdfjs';
+import WebviewerBackend from '../../backends/webviewer';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Navigate, NavLink, Switch } from "react-router-dom"
-import { Button, Card, Tab, Sonnet } from "react-bootstrap"
+import { Button, Card } from "react-bootstrap"
 import "./TeacherProfilePage.css"
 
 function TeacherProfilePage() {
@@ -15,7 +16,7 @@ function TeacherProfilePage() {
                 <div class="container" id="teacher-container">
                     <div class="row">
                         <div class="column" class="col-md-4">
-                            <Card id="profileCard" class="shadow" style={shadow}>
+                            <Card id="profileCard" className="shadow" style={shadow}>
                                 <Card.Img variant="top" src="https://cultureamp.design/static/a489d86dba895745f93a8d1268fe713f/avatar.svg" />
                                 <Card.Body>
                                     <Card.Title>User Name</Card.Title>
@@ -29,18 +30,13 @@ function TeacherProfilePage() {
                         </div>
 
                         <div class="column" class="col-md-8">
-                            <h2 id="lessonTitle"></h2>
+                            <h2 id="lessonTitle"> Archive</h2>
                             < br />
-                            <Card id="lessonsCard" style={shadow}>
-                                <Card.Header as="h5">Archive</Card.Header>
-                                <Card.Body>
-                                    <Card.Title></Card.Title>
-                                    <Card.Text>
-                                        <PDF />
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-
+                            <PDFViewer
+                                backend={PDFJSBackend}
+                                src="/demo.pdf"/>
+                            {/* <PDFViewer backend={WebviewerBackend} src='/myPDF.pdf' /> */}
+                           
                         </div>
                     </div>
                 </div>
