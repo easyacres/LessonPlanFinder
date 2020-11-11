@@ -1,9 +1,9 @@
 const router = require("express").Router();
-const newLessonCtrl = require("../../controllers/newLessonController");
+const newLessonController = require("../../controllers/newLessonController");
 
 // Matches with "/api/NewLesson"
 router.route("/")
-    .post(newLessonCtrl.create);
+    .post(newLessonController.create);
 
 module.exports = router;
 

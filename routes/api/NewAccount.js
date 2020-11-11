@@ -1,9 +1,9 @@
 const router = require("express").Router();
-const newAccountCtrl = require("../../controllers/newAccountController");
+const newAccountController = require("../../controllers/NewLessonController");
 
 // Matches with "/api/NewAccount"
 router.route("/")
-    .post(newAccountCtrl.create);
+    .post(newAccountController.create);
 
 module.exports = router;
 
