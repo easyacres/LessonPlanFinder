@@ -1,14 +1,18 @@
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const newAccountSchema = new Schema({
-  // url string for thumbnail image
+  url string for thumbnail image
   thumbnail: {
     type: String,
     default: ""
   },
-  // teacher name
-  name: {
+  // teacher first name
+  firstName: {
+    type: String,
+    required: true
+  },
+  lastName: {
     type: String,
     required: true
   },
@@ -41,4 +45,5 @@ const newAccountSchema = new Schema({
 
 const newAccount = mongoose.model("newAccount", newAccountSchema);
 
-module.exports = newAccount;
+module.exports = newAccount; 
+*/

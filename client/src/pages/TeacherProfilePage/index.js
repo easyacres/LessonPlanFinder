@@ -19,9 +19,9 @@ function TeacherProfilePage() {
                             <Card id="profileCard" className="shadow" style={shadow}>
                                 <Card.Img variant="top" src="https://cultureamp.design/static/a489d86dba895745f93a8d1268fe713f/avatar.svg" />
                                 <Card.Body>
-                                    <Card.Title>User Name</Card.Title>
+                                    <Card.Title>{savedAccount.username}</Card.Title>
                                     <Card.Text>
-                                        useremail@email.com
+                                        {savedAccount.email}
                                     </Card.Text>
                                     <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>

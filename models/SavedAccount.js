@@ -3,17 +3,16 @@ const Schema = mongoose.Schema;
 
 const savedAccountSchema = new Schema({
   // url string for thumbnail image
-  thumbnail: {
-    type: String,
-    default: ""
-  },
+  //thumbnail: {
+    //type: String,
+    //default: ""
+  //},
   // teacher name
-  name: {
+  first_name: {
     type: String,
     required: true
   },
-  // course taught
-  course: {
+  last_name: {
     type: String,
     required: true
   },
