@@ -22,10 +22,10 @@ const newLessonSchema = new Schema({
       type: String
   },
   // date the lesson plan was created
-  date: {
+  /*date: {
       type: Date,
       default: Date.now
-  },
+  },*/
 
 });
 

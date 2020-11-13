@@ -1,4 +1,4 @@
-const db = require("../models/SavedAccount");
+const db = require("../models/savedAccount");
 
 // Defining methods for savedAccountController
 module.exports = {

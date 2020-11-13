@@ -2,13 +2,18 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const adminAccountSchema = new Schema({
-  // url string for thumbnail image
+  /* url string for thumbnail image
   thumbnail: {
     type: String,
     default: ""
+  },*/
+  // first name
+  firstName: {
+    type: String,
+    required: true
   },
-  // admin name
-  name: {
+  // last name
+  lastName: {
     type: String,
     required: true
   },
