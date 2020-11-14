@@ -1,7 +1,7 @@
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const savedLessonSchema = new Schema({
+let savedLessonSchema = new Schema({
   // lesson plan name
   title: {
     type: String,
@@ -31,4 +31,4 @@ const savedLessonSchema = new Schema({
 
 const savedLesson = mongoose.model("SavedLesson", savedLessonSchema);
 
-module.exports = savedLesson;
+module.exports = savedLesson; */

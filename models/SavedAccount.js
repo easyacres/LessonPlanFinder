@@ -1,7 +1,7 @@
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const savedAccountSchema = new Schema({
+let savedAccountSchema = new Schema({
   // url string for thumbnail image
   //thumbnail: {
     //type: String,
@@ -39,4 +39,4 @@ const savedAccountSchema = new Schema({
 
 const savedAccount = mongoose.model("SavedAccount", savedAccountSchema);
 
-module.exports = savedAccount;
+module.exports = savedAccount; */

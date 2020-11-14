@@ -1,4 +1,4 @@
-const db = require("../models/AdminAccount");
+/*const db = require("../models/AdminAccount");
 
 // Defining methods for adminAccountController
 module.exports = {
@@ -7,4 +7,4 @@ module.exports = {
         .then(dbAdminAccount => res.json(dbAdminAccount))
         .catch(err => res.status(422).json(err));
     },
-};
+};*/

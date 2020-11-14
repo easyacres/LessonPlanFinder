@@ -1,4 +1,4 @@
-const db = require("../models/savedAccount");
+/*const db = require("../models/savedAccount");
 
 // Defining methods for savedAccountController
 module.exports = {
@@ -18,4 +18,4 @@ module.exports = {
         .then(dbSavedAccount => res.json(dbSavedAccount))
         .catch(err => res.status(422).json(err));
     }
-};
+};*/

@@ -1,7 +1,7 @@
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const newLessonSchema = new Schema({
+let newLessonSchema = new Schema({
   // lesson plan name
   title: {
     type: String,
@@ -20,15 +20,15 @@ const newLessonSchema = new Schema({
   // synopsis of the plan
   synopsis: {
       type: String
-  },
+  }
   // date the lesson plan was created
   /*date: {
       type: Date,
       default: Date.now
-  },*/
+  },
 
 });
 
 const newLesson = mongoose.model("newLesson", newLessonSchema);
 
-module.exports = newLesson;
+module.exports = newLesson; */
