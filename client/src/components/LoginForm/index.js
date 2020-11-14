@@ -8,14 +8,14 @@ function LoginForm() {
 
         <div className="login-form">
             <Form class="login">
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group id="loginForm-group" controlId="formBasicEmail">
                     <Form.Label></Form.Label>
-                    <Form.Control type="email" class="form-control" id="username-input" placeholder="&#xf007;  UserName" />
+                    <Form.Control type="email" className="loginForm-control" id="username-input" placeholder="&#xf007;  UserName" />
                 </Form.Group>
 
-                <Form.Group controlId="formBasicPassword">
+                <Form.Group id="loginForm-group" controlId="formBasicPassword">
                     <Form.Label></Form.Label>
-                    <Form.Control type="password" class="form-control" id="password-input" placeholder="&#xf023;  Password" />
+                    <Form.Control type="password" className="loginForm-control" id="password-input" placeholder="&#xf023;  Password" />
                 </Form.Group>
 
                 <Router>
