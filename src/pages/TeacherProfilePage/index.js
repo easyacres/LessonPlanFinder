@@ -1,9 +1,8 @@
 import React from "react"
 import PDFViewer from '../../components/PDFViewer/index';
 import PDFJSBackend from '../../backends/pdfjs';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Button, Card, NavLink } from "react-bootstrap"
 import "./TeacherProfilePage.css"
+import ProfileCard from "../../components/ProfileCard";
 
 function TeacherProfilePage() {
     var shadow = {
@@ -15,17 +14,7 @@ function TeacherProfilePage() {
                 <div class="container" id="teacher-container">
                     <div class="row">
                         <div class="column" class="col-md-4">
-                            <Card id="profileCard" className="shadow" style={shadow}>
-                                <Card.Img variant="top" src='https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg'/>
-                                <Card.Body>
-                                    <Card.Title>John Smith</Card.Title>
-                                    <Card.Text>
-                                        johnsmith@email.com
-                                    </Card.Text>
-                                    {/* <Button variant="primary">Go somewhere</Button> */}
-                                </Card.Body>
-                            </Card>
-                            <Router></Router>
+                            <ProfileCard />
                         </div>
 
                         <div class="column" class="col-md-8">
@@ -46,20 +35,6 @@ function TeacherProfilePage() {
                                 </div>
                             </div>
                             < br />
-                            <div class="row">
-                                <div class="column" class="col-sm-6">
-                                    <PDFViewer
-                                        backend={PDFJSBackend}
-                                    // src="../../assets/webviewwer-demo.pdf"
-                                    />
-                                </div>
-                                <div class="column" class="col-sm-6">
-                                    <PDFViewer
-                                        backend={PDFJSBackend}
-                                    // src="../../assets/webviewwer-demo.pdf"
-                                    />
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

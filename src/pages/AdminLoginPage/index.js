@@ -22,9 +22,7 @@ function AdminLoginPage () {
 
               <div class="row">
                   <div class="column filter-image" class="col-md-6">
-                      {/* <img id="user-login-img"
-                  src="../img/connect.png"
-                  alt="User Login"> */}
+                
                   </div>
 
                   <div class="column" class="col-md-12">
