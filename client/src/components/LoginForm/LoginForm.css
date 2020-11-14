@@ -1,6 +1,9 @@
 form.login {
     margin-top: 25px;
 }
+#loginForm-group {
+    margin: 0px;
+}
 
 .loginForm-control{
     border-radius: 100px;
