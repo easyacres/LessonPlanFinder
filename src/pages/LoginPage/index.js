@@ -1,83 +1,32 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Navigate, NavLink, Switch } from "react-router-dom"
-import { Button } from "react-bootstrap"
-import NewAccountPage from "../NewAccountPage/index.js"
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { Button, Form, Navbar, Nav, Container } from "react-bootstrap"
 import "./LoginPage.css";
+import LoginForm from '../../components/LoginForm';
 
 function LoginPage() {
     return (
         <section id="login">
-        <div id="layer">
-        <div class="container" id="login-container">
-
-            <div class="row">
-                <div class="column filter-image" class="col-md-6">
-                    {/* <img id="user-login-img"
-                        src="../img/connect.png"
-                        alt="User Login"> */}
-                </div>
-
-                <div class="column" class="col-md-12">
-                    <h2 id="loginHeader">Member Login</h2>
-                    <form class="login">
-
-                        <div class="form-group">
-                            <label for="exampleInputEmail1"></label>
-                            <input type="email" class="form-control" id="email-input" placeholder="&#xf007;  UserName"></input>
+            <div id="layer">
+                <Navbar className="loginNav">
+                    <Navbar.Brand></Navbar.Brand>
+                    <Nav className="justify-content-end">
+                        <Button variant="outline-light" id="adminlogin">
+                            <NavLink to="./adminlogin" id="navlink">
+                                Admin Login
+                            </NavLink>
+                        </Button>
+                    </Nav>
+                </Navbar>
+                <Container id="login-container">
+                    <div class="row">
+                        <div class="column" class="col-md-12">
+                            <h1 id="loginHeader">Lesson</h1><h1 id="loginHeader2">Works</h1>
+                            <LoginForm />
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1"></label>
-                            <input type="password" class="form-control" id="password-input" placeholder="&#xf023;  Password"></input>
-                        </div>
-                        
-                        {/* <button type="submit" class="btn" id="signup-btn">Sign Up</button>  */}
-                        
-                        <Router>
-                        
-                        
-        <div>
-    <Button variant="outline-info" id="adminlogin">
-        <NavLink to="./adminlogin">
-            Admin Login
-        </NavLink>
-    </Button>
-    <Button variant="outline-info">
-        <NavLink to="./newaccountpage">
-        Sign Up
-        </NavLink>
-        </Button>
-
-  
-          {/* A <Switch> looks through its children <Route>s and
-              renders the first one that matches the current URL. */}
-              <Switch>
-            <Route path="/" exact>
-              Login Page
-            </Route>
-            <Route path="/newaccount">
-              <NewAccountPage />
-            </Route>
-            <Route path="/adminlogin">
-              
-            </Route>
-            </Switch>
-           
-                        <Button type="submit" class="btn" id="login-btn">Login</Button>
-                        
-                        </div>
-                        </Router>
-                    </form>
-                    <form class="forgotpass">
-                        <p><button type="submit" class="forgotPass-btn">Forgot Password?</button></p>
-                    </form>
-                    <br />
-                    <br />
-                    <br />
-                </div>
+                    </div>
+                </Container>
             </div>
-        </div>
-        </div>
         </section>
 
     );

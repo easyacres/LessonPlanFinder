@@ -3,19 +3,15 @@ import React from "react"
 
 function Navigate() {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar className="loginNav">
         <Navbar.Brand></Navbar.Brand>
-        <Nav className="mr-auto">
+        <Nav className="justify-content-end">
         <Button variant="outline-info">
         <NavLink to="./adminlogin">
             Admin Login
         </NavLink>
         </Button>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info">Search</Button>
-        </Form>
       </Navbar>
     );
 }
