@@ -1,4 +1,4 @@
-const db = require("../models/SavedLesson");
+/*const db = require("../models/SavedLesson");
 
 // Defining methods for savedLessonController
 module.exports = {
@@ -18,4 +18,4 @@ module.exports = {
         .then(dbSavedLesson => res.json(dbSavedLesson))
         .catch(err => res.status(422).json(err));
     }
-};
+};*/

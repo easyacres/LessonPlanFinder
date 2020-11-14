@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");
 const db = require("../models/NewAccount");
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/lessonplan");
@@ -18,4 +18,4 @@ db.newAccount.remove({})
 .catch(err => {
     console.error(err);
     process.exit(1);
-});
+});*/

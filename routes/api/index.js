@@ -1,11 +1,15 @@
-const path = require("path");
 const router = require("express").Router();
-const adminAccount = require("./AdminAccount");
+const lessonmainRoutes = require("./lessonmain");
+/*const adminAccount = require("./AdminAccount");
 const newAccount = require("./NewAccount");
 const newLesson = require("./NewLesson");
 const savedAccount = require("./SavedAccount");
-const savedLesson = require("./SavedLesson");
+const savedLesson = require("./SavedLesson");*/
 
+// Lesson routes
+router.use("/lessonmain", lessonmainRoutes);
+
+/*
 // AdminAccount routes
 router.use("/AdminAccount", adminAccount);
 
@@ -21,5 +25,5 @@ router.use("/SavedAccount", savedAccount);
 // SavedLesson routes
 router.use("/SavedLesson", savedLesson);
 
-
+*/
 module.exports = router;

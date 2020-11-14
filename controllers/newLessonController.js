@@ -1,4 +1,4 @@
-const db = require("../models/NewLesson");
+/*const db = require("../models/NewLesson");
 
 // Defining methods for the newLessonCtrl
 module.exports = {
@@ -7,4 +7,4 @@ module.exports = {
         .then(dbnewLesson => res.json(dbnewLesson))
         .catch(err => res.status(422).json(err));
     }
-};
+};*/
