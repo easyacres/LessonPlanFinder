@@ -49,20 +49,6 @@ body {
     text-align: left;
     color: white
 }
-form.login {
-    margin-top: 25px;
-}
-.form-group {
-    margin: 0px;
-}
-.form-control{
-    border-radius: 100px;
-    padding: 15px;
-    border: none;
-    font-weight: bold;
-    font-size: 15px;
-    color: white;
-}
 
 #login-container {
     margin-top: 15%;

@@ -1,8 +1,5 @@
 import React from "react"
-import PDFViewer from '../../components/PDFViewer/index';
-import PDFJSBackend from '../../backends/pdfjs';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Button, Card, NavLink } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 import "./LessonPlanPage.css"
 
 function LessonPlanPage() {
@@ -10,18 +7,18 @@ function LessonPlanPage() {
     return (
         <section id="lesson">
         <div id="lessonlayer">
-            <div class="container" id="lesson-container">
+            <Container className="container" id="lesson-container">
             <h2 id="lessonPageTitle"> Lesson Board</h2>
-                <div class="row">
-                    <div class="column" class="col-md-6">
+                <div className="row">
+                    <div className="column" className="col-md-6">
                         <p>CONTENT HERE</p>
                     </div>
 
-                    <div class="column" class="col-md-6">
+                    <div className="column" className="col-md-6">
                     <p>CONTENT HERE</p>
                     </div>
                 </div>
-            </div>
+            </Container>
         </div>
     </section>  
     )
