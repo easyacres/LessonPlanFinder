@@ -7,15 +7,3 @@
 .navbar {
     background-color: rgb(255, 230, 0);
 }
-#navHeader{
-    margin-left: 15%;
-    text-align: center;
-    font-weight: 1400;
-    color: rgb(235, 221, 19);
-    float: left;
-}
-#navHeader2 {
-    font-weight: bolder;
-    text-align: left;
-    color:rgba(80, 80, 80, 0.562);
-}
