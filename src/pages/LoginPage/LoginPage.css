@@ -7,11 +7,11 @@
     background-color: transparent;
 }
 body {
-    font-family: FontAwesome;
+    font-family: 'Poppins', sans-serif;
 }
 #login {
     position: relative;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@ body {
     opacity: 82%; 
 }
 #layer {
-    /* background-color: rgba(252, 255, 50, 0.1); */
+    background-color: rgba(48, 48, 49, 0.589);
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -38,8 +38,16 @@ body {
     left: 0px;
 }
 #loginHeader{
+    margin-left: 15%;
+    text-align: center;
+    font-weight: 1400;
+    color: rgb(235, 221, 19);
+    float: left;
+}
+#loginHeader2 {
     font-weight: bolder;
-    color: rgb(224, 223, 156);
+    text-align: left;
+    color: white
 }
 form.login {
     margin-top: 25px;
@@ -57,7 +65,7 @@ form.login {
 }
 
 #login-container {
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 10%;
     padding-bottom: 10px;
     width: 100%;

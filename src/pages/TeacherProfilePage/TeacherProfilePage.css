@@ -18,5 +18,17 @@
     border-color: rgb(243, 243, 243);
 }
 #lessonTitle {
-    color: grey;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-align: left;
+}
+#editBtn {
+    border-radius: 7%;
+    background-color: rgb(255, 238, 0);
+    border: none;
+    color: rgb(80, 80, 80);
+    padding: 1px;
+}
+#editNavLink {
+    color: rgb(80, 80, 80);
 }

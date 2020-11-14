@@ -24,13 +24,10 @@ function LoginPage() {
 
                     <div class="row">
                         <div class="column filter-image" class="col-md-6">
-                            {/* <img id="user-login-img"
-                        src="../img/connect.png"
-                        alt="User Login"> */}
                         </div>
 
                         <div class="column" class="col-md-12">
-                            <h2 id="loginHeader">Member Login</h2>
+                            <h1 id="loginHeader">Lesson</h1><h1 id="loginHeader2">Works</h1>
                             <Form class="login">
                                 <Form.Group controlId="formBasicEmail">
                                     <Form.Label></Form.Label>

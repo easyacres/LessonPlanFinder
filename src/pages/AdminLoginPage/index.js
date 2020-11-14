@@ -28,7 +28,7 @@ function AdminLoginPage () {
                   </div>
 
                   <div class="column" class="col-md-12">
-                      <h2 id="loginHeader">Admin Login</h2>
+                  <h1 id="loginHeader">Lesson</h1><h1 id="loginHeader2">Works</h1><h3 id="adminLoginHeader">-Admin-</h3>
                       <Form class="login">
                           <Form.Group controlId="formBasicEmail">
                               <Form.Label></Form.Label>
@@ -44,11 +44,11 @@ function AdminLoginPage () {
 
                           <Router>
                               <div>
-                                  <Button variant="outline-light" id="signup-btn">
+                                  {/* <Button variant="outline-light" id="signup-btn">
                                       <NavLink to="./newaccount" id="navlink">
                                           Sign Up
                                       </NavLink>
-                                  </Button>
+                                  </Button> */}
 
                                   {/* A <Switch> looks through its children <Route>s and
                                   renders the first one that matches the current URL. */}

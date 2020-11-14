@@ -7,6 +7,7 @@ import LoginPage from "./pages/LoginPage/index"
 import AdminProfilePage from "./pages/AdminProfilePage"
 import Navigation from "./components/Nav"
 import TeacherProfilePage from "./pages/TeacherProfilePage"
+import WebViewerWindow from "./components/WebViewerWindow/webviewer"
 
 function Routes () {
     return (
@@ -28,6 +29,9 @@ function Routes () {
         <Route path="/teacherprofile">
           <Navigation />
           <TeacherProfilePage />
+        </Route>
+        <Route path="/webviewer">
+          <WebViewerWindow />
         </Route>
         </Switch>
         </BrowserRouter>
