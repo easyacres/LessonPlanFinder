@@ -1,12 +1,12 @@
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const adminAccountSchema = new Schema({
+let adminAccountSchema = new Schema({
   /* url string for thumbnail image
   thumbnail: {
     type: String,
     default: ""
-  },*/
+  },
   // first name
   firstName: {
     type: String,
@@ -40,4 +40,4 @@ const adminAccountSchema = new Schema({
 
 const adminAccount = mongoose.model("adminAccount", adminAccountSchema);
 
-module.exports = adminAccount;
+module.exports = adminAccount; */

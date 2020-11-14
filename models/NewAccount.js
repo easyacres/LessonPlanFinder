@@ -1,7 +1,7 @@
 /*const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const newAccountSchema = new Schema({
+let newAccountSchema = new Schema({
   url string for thumbnail image
   thumbnail: {
     type: String,
