@@ -1,7 +1,4 @@
 import React from "react"
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Navigate, NavLink, Switch } from "react-router-dom"
-import { Button, Card, Tab, Sonnet } from "react-bootstrap"
 import "./AdminProfilePage.css"
 import ProfileCard from "../../components/ProfileCard";
 
