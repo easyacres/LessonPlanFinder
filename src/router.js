@@ -8,6 +8,7 @@ import AdminProfilePage from "./pages/AdminProfilePage"
 import Navigation from "./components/Nav"
 import TeacherProfilePage from "./pages/TeacherProfilePage"
 import WebViewerWindow from "./components/WebViewerWindow/webviewer"
+import LessonPlanPage from "./pages/LessonPlanPage"
 
 function Routes () {
     return (
@@ -32,6 +33,10 @@ function Routes () {
         </Route>
         <Route path="/webviewer">
           <WebViewerWindow />
+        </Route>
+        <Route path="/lessonplan">
+          <Navigation />
+          <LessonPlanPage />
         </Route>
         </Switch>
         </BrowserRouter>
