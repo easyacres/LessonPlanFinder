@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Button} from "react-bootstrap";
+import { Button, NavLink } from "react-bootstrap";
+import WebViewerWindow from '../../components/WebViewerWindow/webviewer';
 import "./PDFViewer.css"
 
 export default class PDFViewer extends React.Component {
@@ -16,8 +17,12 @@ export default class PDFViewer extends React.Component {
   }
   render() {
     return (
-      <div ref={this.viewerRef} id='viewer' style={{ width: '50%', height: '100%' }}>
-
+      <div ref={this.viewerRef} id='viewer' style={{ width: '100%', height: '100%' }}>
+        {/* <Button id="editBtn">
+          <NavLink id="editNavLink" to="./webviewer" onClick={WebViewerWindow}>
+            Edit
+          </NavLink>
+        </Button> */}
       </div>
     )
   }
