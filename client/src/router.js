@@ -9,12 +9,16 @@ import Navigation from "./components/Nav"
 import TeacherProfilePage from "./pages/TeacherProfilePage"
 import WebViewerWindow from "./components/WebViewerWindow/webviewer"
 import LessonPlanPage from "./pages/LessonPlanPage"
+import LandingPage from "./pages/LandingPage"
 
 function Routes () {
     return (
         <BrowserRouter>
         <Switch>
         <Route path="/" exact>
+          <LandingPage />
+        </Route>
+        <Route path="/login">
           <LoginPage />
         </Route>
         <Route path="/newaccount">
@@ -30,9 +34,6 @@ function Routes () {
         <Route path="/teacherprofile">
           <Navigation />
           <TeacherProfilePage />
-        </Route>
-        <Route path="/webviewer">
-          <WebViewerWindow />
         </Route>
         <Route path="/lessonplan">
           <Navigation />
