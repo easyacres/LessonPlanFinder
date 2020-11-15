@@ -1,5 +1,7 @@
 #widget-container {
-    height: 45vh;
-    min-height: 45vh;
-    padding: 5%;
+    height: 100%;
+    padding: 8%;
+}
+#widget-icons {
+    margin-bottom: 15px;
 }

@@ -12,7 +12,7 @@ function AdminLoginPage () {
               <Navbar.Brand></Navbar.Brand>
               <Nav className="justify-content-end">
                   <Button variant="outline-light" id="adminlogin">
-                      <NavLink to="./" id="navlink">
+                      <NavLink to="./login" id="navlink">
                           Member Login
                       </NavLink>
                   </Button>
