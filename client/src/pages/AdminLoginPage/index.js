@@ -1,6 +1,6 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
-import { Button, Navbar, Nav, Container } from "react-bootstrap"
+import { Button, Navbar, Nav, Container, Row, Col } from "react-bootstrap"
 import "./AdminLoginPage.css"
 import LoginForm from "../../components/LoginForm";
 
@@ -12,7 +12,7 @@ function AdminLoginPage () {
               <Navbar.Brand></Navbar.Brand>
               <Nav className="justify-content-end">
                   <Button variant="outline-light" id="adminlogin">
-                      <NavLink to="./" id="navlink">
+                      <NavLink to="./login" id="navlink">
                           Member Login
                       </NavLink>
                   </Button>
@@ -20,12 +20,12 @@ function AdminLoginPage () {
           </Navbar>
           <Container className="container" id="login-container">
 
-              <div className="row">
-                  <div className="column" className="col-md-12">
+              <Row>
+                  <Col size="md-12">
                   <h2 id="loginHeader">Lesson</h2><h2 id="loginHeader2">Works</h2>
                       <LoginForm />
-                  </div>
-              </div>
+                  </Col>
+              </Row>
           </Container>
       </div>
   </section>
