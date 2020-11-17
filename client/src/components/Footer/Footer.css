@@ -2,27 +2,25 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 55px;
+    padding: 10px;
     text-align: center;
-    background-color: rgba(48, 48, 49);
+    background-color: gray;
 }
 .foot {
-    padding: 20px;
     font-weight: bold;
-    color: rgb(150, 150, 150);
+    color: lightgray;
     font-size: 25px;
 }
 p {
-    padding: 5px;
     font-size: 15px;
     color: rgb(143, 143, 143);
+    margin: 0px;
 }
 
 .subFooter{
-    position: relative;
-    bottom: 0;
     width: 100%;
-    padding: 15px;
     text-align: center;
-    color: rgb(56, 56, 56);
+    padding: 10px;
+    position: relative;
+    left: 228px;
 }
