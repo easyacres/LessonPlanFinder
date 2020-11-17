@@ -1,21 +1,23 @@
 import React from "react"
 import "./AdminProfilePage.css"
 import ProfileCard from "../../components/ProfileCard";
+import { Container } from "../../components/Grid";
+import { Row, Col } from "react-bootstrap"
 
 function AdminProfilePage() {
     return (
         <section id="admin">
             <div id="adminlayer">
-                <div class="container" id="admin-container">
-                    <div class="row">
-                        <div class="column" class="col-md-4">
+                <Container id="admin-container">
+                    <Row>
+                        <Col size="md-4">
                             <ProfileCard />
-                        </div>
+                        </Col>
 
-                        <div class="column" class="col-md-8">
-                        </div>
-                    </div>
-                </div>
+                        <Col size="md-8">
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </section>
     )

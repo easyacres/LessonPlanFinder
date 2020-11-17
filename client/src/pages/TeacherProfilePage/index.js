@@ -59,9 +59,7 @@ function TeacherProfilePage() {
                 .catch(err => console.log(err));
         }
     };
-    var shadow = {
-        boxShadow: "1px 3px 1px #f5f5f5"
-    }
+    
     return (
         <Container id="teacher-container">
             <Row>

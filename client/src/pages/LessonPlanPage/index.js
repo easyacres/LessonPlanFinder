@@ -1,5 +1,5 @@
 import React from "react"
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import "./LessonPlanPage.css"
 
 function LessonPlanPage() {
@@ -7,17 +7,17 @@ function LessonPlanPage() {
     return (
         <section id="lesson">
         <div id="lessonlayer">
-            <Container className="container" id="lesson-container">
+            <Container id="lesson-container">
             <h2 id="lessonPageTitle"> Lesson Board</h2>
-                <div className="row">
-                    <div className="column" className="col-md-6">
+                <Row>
+                    <Col sixe="md-6">
                         <p>CONTENT HERE</p>
-                    </div>
+                    </Col>
 
-                    <div className="column" className="col-md-6">
+                    <Col size="md-6">
                     <p>CONTENT HERE</p>
-                    </div>
-                </div>
+                    </Col>
+                </Row>
             </Container>
         </div>
     </section>  
