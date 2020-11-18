@@ -1,11 +1,12 @@
 import React from 'react';
+import {Row} from 'react-bootstrap';
 import "./Footer.css";
 
 function Footer() {
     return (
         <footer className="footer">
             <div class="container">
-                <div class="row">
+                <Row>
 
 
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-secondary" >
@@ -17,12 +18,12 @@ function Footer() {
               
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-secondary" >
-                    <p>LessonPlanner@gmail.com</p>
+                    <p>contactus@lessonworks.com</p>
               
                     </div>
                 
                   
-                </div>
+                </Row>
 
        
 

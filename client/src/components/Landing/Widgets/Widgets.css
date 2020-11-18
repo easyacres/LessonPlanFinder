@@ -1,7 +1,10 @@
 #widget-container {
     height: 100%;
-    padding: 8%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 #widget-icons {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
