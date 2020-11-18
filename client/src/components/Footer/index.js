@@ -7,26 +7,30 @@ function Footer() {
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <p> </p>
-                    </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <p class="foot">Contact Us</p>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-secondary" >
                         <p>(770)777-7777</p>
-                        <p>LessonPlanner@gmail.com</p>
+              
                     </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 foot" >
+                    <h6><strong>Made with <i class="far fa-heart"></i></strong></h6>
+              
                     </div>
-
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-secondary" >
+                    <p>LessonPlanner@gmail.com</p>
+              
+                    </div>
+                
+                  
                 </div>
+
+       
+
+               
+
             </div>
 
-            <footer className="subFooter">
-            <h6>Made with <i class="far fa-heart"></i> by LessonPlanner</h6>
-            </footer>
+
         </footer>
 
 
