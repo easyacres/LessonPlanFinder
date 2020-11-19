@@ -32,9 +32,15 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 // }
 
 function PDFViewer () {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+ 
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
   return (
-    <Document file="../../demo.pdf">
-      <Page />
+    <Document file="">
+      <Page pageNumber={pageNumber}/>
     </Document>
 
   )
