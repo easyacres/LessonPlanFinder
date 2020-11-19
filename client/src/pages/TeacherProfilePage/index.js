@@ -65,6 +65,7 @@ function TeacherProfilePage() {
             <Row>
                 <Col size="md-3">
                     <ProfileCard />
+                    <PDFViewer />
                 </Col>
 
                 <Col size="md-4">
