@@ -39,10 +39,11 @@ function PDFViewer () {
     setNumPages(numPages);
   }
   return (
-    <Document file="">
+    <a href="https://drive.google.com/file/d/1B9bNEKXUW76nYBMHYeEC0rS9Mjhcktqt/view?usp=sharing">
+    <Document file="../../demo.pdf">
       <Page pageNumber={pageNumber}/>
     </Document>
-
+    </a>
   )
 }
 
