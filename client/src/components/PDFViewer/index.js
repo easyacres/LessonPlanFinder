@@ -4,6 +4,7 @@ import WebViewerWindow from '../../components/WebViewerWindow/webviewer';
 import "./PDFViewer.css"
 import { Document, Page } from "react-pdf"
 import { pdfjs } from 'react-pdf';
+import { propTypes } from 'react-bootstrap/esm/Image';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 // export default class PDFViewer extends React.Component {
@@ -31,7 +32,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 //   }
 // }
 
-function PDFViewer () {
+function PDFViewer (props) {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
  
@@ -39,7 +40,7 @@ function PDFViewer () {
     setNumPages(numPages);
   }
   return (
-    <a href="https://drive.google.com/file/d/1B9bNEKXUW76nYBMHYeEC0rS9Mjhcktqt/view?usp=sharing">
+    <a href={props.pdflink}>
     <Document file="../../demo.pdf">
       <Page pageNumber={pageNumber}/>
     </Document>
