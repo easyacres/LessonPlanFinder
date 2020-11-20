@@ -6,7 +6,7 @@ router.route("/")
   .get(lessonsmainsController.findAll)
   .post(lessonsmainsController.create);
 
-// Matches with "/api/books/:id"
+// Matches with "/api/lessonmain/:id"
 router
   .route("/:id")
   .get(lessonsmainsController.findById)

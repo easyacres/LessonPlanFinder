@@ -1,13 +1,14 @@
 const router = require("express").Router();
 const lessonmainRoutes = require("./lessonmain");
-/*const adminAccount = require("./AdminAccount");
-const newAccount = require("./NewAccount");
-const newLesson = require("./NewLesson");
-const savedAccount = require("./SavedAccount");
-const savedLesson = require("./SavedLesson");*/
+const adminmainRoutes = require("./adminmain");
+// const newAccount = require("./NewAccount");
+// const newLesson = require("./NewLesson");
+// const savedAccount = require("./SavedAccount");
+// const savedLesson = require("./SavedLesson");
 
 // Lesson routes
 router.use("/lessonmain", lessonmainRoutes);
+router.use("/adminmain", adminmainRoutes)
 
 /*
 // AdminAccount routes

@@ -1,12 +1,12 @@
-/*const mongoose = require("mongoose");
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-let adminAccountSchema = new Schema({
-  /* url string for thumbnail image
-  thumbnail: {
-    type: String,
-    default: ""
-  },
+const adminsmainSchema = new Schema({
+  // // url string for thumbnail image
+  // thumbnail: {
+  //   type: String,
+  //   default: ""
+  // },
   // first name
   firstName: {
     type: String,
@@ -34,10 +34,10 @@ let adminAccountSchema = new Schema({
     type: String,
     unique: true,
     match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
-  },
+  }
    
 });
 
-const adminAccount = mongoose.model("adminAccount", adminAccountSchema);
+const AdminMain = mongoose.model("AdminsMain", adminsmainSchema);
 
-module.exports = adminAccount; */
+module.exports = AdminMain; 
