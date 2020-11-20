@@ -22,7 +22,7 @@ function TeacherProfilePage() {
         loadLessonsMain()
     }, [])
 
-    // Loads all books and sets them to books
+    // Loads all Lessons and sets them to Lessons
     function loadLessonsMain() {
         API.getLessonsMain()
             .then(res =>
@@ -31,7 +31,7 @@ function TeacherProfilePage() {
             .catch(err => console.log(err));
     };
 
-    // Deletes a book from the database with a given id, then reloads books from the db
+    // Deletes a Lesson from the database with a given id, then reloads Lessons from the db
     function deleteLessonFromMain(id) {
         API.deleteLessonFromMain(id)
             .then(res => loadLessonsMain())
@@ -46,7 +46,7 @@ function TeacherProfilePage() {
     };
 
     // When the form is submitted, use the API.saveLessontoMain method to save the book data
-    // Then reload books from the database
+    // Then reload Lesson from the database
     function handleFormSubmit(event) {
         event.preventDefault();
         if (formObject.title && formObject.author) {
