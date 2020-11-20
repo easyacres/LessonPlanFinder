@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { Button, NavLink } from "react-bootstrap";
-import WebViewerWindow from '../../components/WebViewerWindow/webviewer';
 import "./PDFViewer.css"
 import { Document, Page } from "react-pdf"
 import { pdfjs } from 'react-pdf';

@@ -7,8 +7,7 @@ import LoginPage from "./pages/LoginPage/index"
 import AdminProfilePage from "./pages/AdminProfilePage"
 import Navigation from "./components/Nav"
 import TeacherProfilePage from "./pages/TeacherProfilePage"
-import WebViewerWindow from "./components/WebViewerWindow/webviewer"
-import LessonPlanPage from "./pages/LessonPlanPage"
+import LessonOnly from './pages/LessonPlanPage'
 import LandingPage from "./pages/LandingPage"
 
 function Routes () {
@@ -37,7 +36,7 @@ function Routes () {
         </Route>
         <Route path="/lessonplan">
           <Navigation />
-          <LessonPlanPage />
+          <LessonOnly />
         </Route>
         </Switch>
         </BrowserRouter>
