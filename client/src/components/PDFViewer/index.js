@@ -39,7 +39,7 @@ function PDFViewer (props) {
   }
   return (
     <a href={props.pdflink}>
-    <Document file="../../demo.pdf">
+    <Document file={props.pdf}>
       <Page pageNumber={pageNumber}/>
     </Document>
     </a>
