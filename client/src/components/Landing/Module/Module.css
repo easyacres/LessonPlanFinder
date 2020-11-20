@@ -1,6 +1,6 @@
 #module-container {
     content: "";
-    background: url(./phone-pdf2.jpg);
+    background-color: rgb(255, 238, 86);
     background-size: cover;
     margin-top: 0px;
     right: 0px;
@@ -11,4 +11,5 @@
     max-width: none;
     padding: 10%;
 }
+
 

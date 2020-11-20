@@ -31,7 +31,7 @@ function Widgets2() {
                         />
                         <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Admin</h6>
                         <Figure.Caption>
-                            Nulla vitae elit libero, a pharetra augue mollis interdum.
+                            Learn what it means to be an admin and how it differs from a member.
                             </Figure.Caption>
                     </Figure>
                 </Col>

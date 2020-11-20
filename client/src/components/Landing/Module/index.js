@@ -1,15 +1,16 @@
 import React from 'react';
-import { Row, Col, Button, NavLink, Container, } from 'react-bootstrap'
+import { Row, Col, Button, NavLink, Container, Image } from 'react-bootstrap'
 import "./Module.css";
 
-
 function Module() {
+    
     return (
         <Container id="module-container">
             <Row>
-            <Col size="md-8">
+            <Col xs={0} md={6} id="img-col">
+            <img src="./hiclipart.com.png" alt="phoneimg" width="500" height="auto"></img>
             </Col>
-                <Col xs lg="5">
+                <Col xs={12} md={6}>
                     <h1>Lesson Planning Made Easy</h1>
                     <p>All the lessons you need,
                     convienient annotating made accessible,
