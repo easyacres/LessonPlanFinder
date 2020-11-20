@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Container, Figure } from 'react-bootstrap'
+import '../Widgets/Widgets.css'
 
 
 function Widgets2() {
