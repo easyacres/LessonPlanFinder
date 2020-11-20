@@ -16,9 +16,9 @@ function LandingPage() {
             </Navbar>
             <Header />
             <Widgets />
-            <Banner />
-            <Widgets2 />
             <Module />
+            <Widgets2 />
+            
         </div>
     );
 }
