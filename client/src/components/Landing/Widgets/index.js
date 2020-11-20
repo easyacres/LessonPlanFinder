@@ -14,11 +14,25 @@ function Widgets() {
                             width={95}
                             height={95}
                             alt="171x180"
-                            src="https://www.kindpng.com/picc/m/78-785975_icon-profile-bio-avatar-person-symbol-chat-icon.png" roundedCircle
+                            src="https://png.pngitem.com/pimgs/s/516-5162204_circle-hd-png-download.png" roundedCircle
                         />
                         <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Easy to Use</h6>
-                        <Figure.Caption>
-                            Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        <Figure.Caption style={{color: 'rgb(49, 49, 49)'}}>
+                            We have made lesson planning easier for our users! Simply create an account and begin lesson planning.
+                            </Figure.Caption>
+                    </Figure>
+                </Col>
+                <Col xs={6} md={3}>
+                    <Figure>
+                        <Figure.Image id="widget-icons"
+                            width={95}
+                            height={95}
+                            alt="171x180"
+                            src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-7/177800/312-512.png" roundedCircle
+                        />
+                        <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Connect</h6>
+                        <Figure.Caption style={{color: 'rgb(49, 49, 49)'}}>
+                            Connect with other users for endless ideas on your lessons.
                             </Figure.Caption>
                     </Figure>
                 </Col>
@@ -30,9 +44,9 @@ function Widgets() {
                             alt="171x180"
                             src="https://www.iconarchive.com/download/i86458/graphicloads/long-shadow-documents/document-filetype-pdf.ico" roundedCircle
                         />
-                        <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Easy to Use</h6>
-                        <Figure.Caption>
-                            Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Edit any PDF</h6>
+                        <Figure.Caption style={{color: 'rgb(49, 49, 49)'}}>
+                            Open up your PDF lessons and you have the ability to edit, annotate, and save.
                             </Figure.Caption>
                     </Figure>
                 </Col>
@@ -42,25 +56,11 @@ function Widgets() {
                             width={95}
                             height={95}
                             alt="171x180"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHwrvdunU3Id6Up8-RJfgZurlJHUIQRrARzQ&usqp=CAU" roundedCircle
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Eo_circle_yellow_checkmark.svg/1024px-Eo_circle_yellow_checkmark.svg.png" roundedCircle
                         />
-                        <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Easy to Use</h6>
-                        <Figure.Caption>
-                            Nulla vitae elit libero, a pharetra augue mollis interdum.
-                            </Figure.Caption>
-                    </Figure>
-                </Col>
-                <Col xs={6} md={3}>
-                    <Figure>
-                        <Figure.Image id="widget-icons"
-                            width={95}
-                            height={95}
-                            alt="171x180"
-                            src="https://icons-for-free.com/iconfiles/png/512/file+folder+office+paper+report+icon-1320184210820326687.png" roundedCircle
-                        />
-                        <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Easy to Use</h6>
-                        <Figure.Caption>
-                            Nulla vitae elit libero, a pharetra augue mollis interdum.
+                        <h6 style={{fontSize: '20px', fontWeight: 'bold', marginBottom: '28px', color: 'rgb(49, 49, 49)'}}>Organize</h6>
+                        <Figure.Caption style={{color: 'rgb(49, 49, 49)'}}>
+                            Create your own archive space to organize all your lesson plans.
                             </Figure.Caption>
                     </Figure>
                 </Col>
