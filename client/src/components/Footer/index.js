@@ -1,32 +1,37 @@
 import React from 'react';
+import {Row} from 'react-bootstrap';
 import "./Footer.css";
 
 function Footer() {
     return (
         <footer className="footer">
             <div class="container">
-                <div class="row">
+                <Row>
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <p> </p>
-                    </div>
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <p class="foot">Contact Us</p>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-secondary" >
                         <p>(770)777-7777</p>
-                        <p>LessonPlanner@gmail.com</p>
+              
                     </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 foot" >
+                    <h6><strong>Made with <i class="far fa-heart"></i></strong></h6>
+              
                     </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-secondary" >
+                    <p>contactus@lessonworks.com</p>
+              
+                    </div>
+                
+                  
+                </Row>
 
-                </div>
+       
+
+               
+
             </div>
 
-            <footer className="subFooter">
-            <h6>Made with <i class="far fa-heart"></i> by LessonPlanner</h6>
-            </footer>
+
         </footer>
 
 

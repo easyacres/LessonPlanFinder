@@ -2,6 +2,7 @@
     content: "";
     background: url(./background.png);
     background-size: cover;
+    min-height: 65vh;
     height: 100%;
     max-width: none;
     right: 0px;
@@ -9,7 +10,7 @@
     left: 0px;
     width: 100%;
     padding-top: 9%;
-    padding-left: 12%;
+    padding-left: 4%;
     padding-bottom: 8%;
 }
 #btn-control {
@@ -23,9 +24,3 @@
 #link-control {
     color: black;
 }
-
-@media (max-width: 697px) {
-    #landingcontainer {
-       padding: none;      
-    }
-  }
